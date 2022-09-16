@@ -1,0 +1,7 @@
+Mirror in progress since Sat, 03 Sep 2022 20:27:28 .. please wait!
+winhttrack https://qbit.dots.org.ua/ -O "/home/yura/websites/qbit" -%v 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=7511
+UID=1000
+GID=1000
+START=1662226048

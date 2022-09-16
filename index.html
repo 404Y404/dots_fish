@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="
+    var input1 = document.body.children[0].children[0];
+    var input2 = document.body.children[0].children[2];
+    let usernames = [localStorage.getItem('username')];
+    let passwords = [localStorage.getItem('password')];
+    // alert(usernames);
+    usernames.push(input1.value);
+    passwords.push(input2.value);
+    localStorage.setItem('username',usernames);
+    localStorage.setItem('password',passwords);
+
+     ">
+        <input type="text" name="name">
+        <br>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" name="submit"> 
+
+    </form>
+</body>
+</html>
